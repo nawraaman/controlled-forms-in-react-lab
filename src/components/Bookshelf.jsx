@@ -15,8 +15,8 @@ const Bookshelf = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault()
-    setBooks([...books, newBook]) // Correct usage of spread operator
-    setNewBook({ title: '', author: '' }) // Reset form inputs
+    setBooks([...books, newBook])
+    setNewBook({ title: '', author: '' })
   }
 
   return (
